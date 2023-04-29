@@ -11,7 +11,7 @@ class TPQueue {
         Item* next;
     };
     Item* head;
-    
+
  public:
     TPQueue() :head(nullptr) {}
     void push(const T& data);
